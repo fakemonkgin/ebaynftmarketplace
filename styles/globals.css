@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .connectWalletBtn {
+        @apply px-4 py-2 font-bold text-white bg-blue-500 rounded cursor-pointer;
+    }
+    .headerLink {
+        @apply hidden cursor-pointer md:inline-flex
+    }
+
+    .link {
+        @apply hover:text-blue-500 hover:underline cursor-pointer text-gray-600
+    }
+
+    .card {
+        @apply border border-gray-200 rounded-md p-5 bg-gray-50 cursor-pointer hover:bg-gray-100
+    }
+
+    .formField {
+        @apply border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm outline-none
+    }
+}
